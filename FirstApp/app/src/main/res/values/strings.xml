@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FirstAplication</string>
+    <string name="push_for_surprise">Push for surprise</string>
+    <string name="adeu">¡Adeu!</string>
+    <string name="Back">Back</string>
+    <string name="_0">0</string>
+    <string name="calcul">Calcul</string>
+    <string name="button">Button</string>
+    <string name="swap">swap</string>
+    <string name="galery">Galery</string>
+</resources>
