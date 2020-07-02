@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SecondApp</string>
+    <string name="altura">%s m</string>
+    <string name="edad">%s Años</string>
+</resources>

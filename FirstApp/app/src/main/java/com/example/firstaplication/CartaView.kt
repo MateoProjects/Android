@@ -7,12 +7,10 @@ import android.os.Handler
 import android.os.Looper
 import android.os.SystemClock
 import android.view.View
-import android.widget.Button
-import android.widget.Chronometer
-import android.widget.ImageButton
-import android.widget.Toast
+import android.widget.*
 import androidx.core.view.isVisible
 import kotlinx.android.synthetic.main.activity_carta_view.*
+import java.lang.StringBuilder
 
 var flipped : Boolean = false
 var id_image : Int = -1
@@ -62,11 +60,15 @@ class CartaView : AppCompatActivity() {
 
     private fun finish_game() {
         cronometre.stop()
-        Toast.makeText(applicationContext, "Game finished! Your time was " + (
-            .elapsedRealtime() - cronometre.base)/1000 + " seconds", Toast.LENGTH_SHORT).show()
-        Handler(Looper.getMainLooper()).postDelayed({
-            finish()
-        }, 2000)
+        val dialog = AddDialog.buildDialog(this)
+        var text = dialog.findViewById<TextView>(R.id.textDescription)
+        text.text = "Your time was " + ((SystemClock.elapsedRealtime() - cronometre.base)/1000).toString() + " seconds"
+        dialog.show()
+        // Toast.makeText(applicationContext, "Game finished! Your time was " + (
+        //    SystemClock.elapsedRealtime() - cronometre.base)/1000 + " seconds", Toast.LENGTH_SHORT).show()
+        //Handler(Looper.getMainLooper()).postDelayed({
+        //    finish()
+        //}, 2000)
     }
     private fun startGame() {
         cardList = generateRandomizedCardList()

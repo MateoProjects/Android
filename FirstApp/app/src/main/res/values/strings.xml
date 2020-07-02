@@ -8,5 +8,6 @@
     <string name="button">Button</string>
     <string name="swap">swap</string>
     <string name="galery">Galery</string>
-    <string name="Start">start</string>
+    <string name="Start">Start</string>
+    <string name="OK">OK</string>
 </resources>
