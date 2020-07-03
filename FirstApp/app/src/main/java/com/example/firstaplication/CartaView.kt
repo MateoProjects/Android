@@ -1,5 +1,7 @@
 package com.example.firstaplication
 
+import android.app.AlertDialog
+import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -10,6 +12,7 @@ import android.view.View
 import android.widget.*
 import androidx.core.view.isVisible
 import kotlinx.android.synthetic.main.activity_carta_view.*
+import kotlinx.android.synthetic.main.adeulayout.*
 import java.lang.StringBuilder
 
 var flipped : Boolean = false
@@ -43,7 +46,8 @@ class CartaView : AppCompatActivity() {
 
     private fun setUpClickListeners() {
         buttonBack.setOnClickListener {
-            finish()
+            BackDialog().newInstance(this , this).show()
+
         }
 
         buttonStart.setOnClickListener{
@@ -58,12 +62,13 @@ class CartaView : AppCompatActivity() {
     }
 
 
-    private fun finish_game() {
+    fun finish_game() {
         cronometre.stop()
-        val dialog = AddDialog.buildDialog(this)
-        var text = dialog.findViewById<TextView>(R.id.textDescription)
-        text.text = "Your time was " + ((SystemClock.elapsedRealtime() - cronometre.base)/1000).toString() + " seconds"
-        dialog.show()
+        //val dialog = AddDialog.buildDialog(this)
+        //var text = dialog.findViewById<TextView>(R.id.textDescription)
+        System.exit(0)
+        //text.text = "Your time was " + ((SystemClock.elapsedRealtime() - cronometre.base)/1000).toString() + " seconds"
+        //dialog.show()
         // Toast.makeText(applicationContext, "Game finished! Your time was " + (
         //    SystemClock.elapsedRealtime() - cronometre.base)/1000 + " seconds", Toast.LENGTH_SHORT).show()
         //Handler(Looper.getMainLooper()).postDelayed({
@@ -134,4 +139,6 @@ class CartaView : AppCompatActivity() {
             }
         }
     }
+
+
 }

@@ -10,4 +10,8 @@
     <string name="galery">Galery</string>
     <string name="Start">Start</string>
     <string name="OK">OK</string>
+    <string name="NO">No</string>
+    <string name="YES">Yes</string>
+    <string name="TextBack">Are you sure you want exit?</string>
+    <string name="Exit">Exit</string>
 </resources>
