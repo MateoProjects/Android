@@ -1,6 +1,7 @@
 package com.example.secondapp
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.TextureView
 import androidx.recyclerview.widget.RecyclerView
@@ -52,8 +53,6 @@ class PersonaAdapter(val onPersonClick:(Persona)->Unit , val context: Context) :
         notifyDataSetChanged()
     }
 
-    fun onPersonaClick() {
 
-    }
 
 }

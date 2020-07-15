@@ -1,12 +1,13 @@
 package com.example.firstaplication
 
+import android.app.Activity
 import android.app.AlertDialog
 import android.content.Context
 import android.widget.Toast
 
 class BackDialog {
 
-    fun newInstance (context: Context , activity: CartaView) : AlertDialog {
+    fun newInstance (context: Context , activity: Activity) : AlertDialog {
         val dialog: AlertDialog.Builder = AlertDialog.Builder(context)
         dialog.setIcon(R.drawable.exit_icon)
         dialog.setTitle(R.string.Exit)

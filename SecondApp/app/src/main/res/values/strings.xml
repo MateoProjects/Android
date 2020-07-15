@@ -2,4 +2,10 @@
     <string name="app_name">SecondApp</string>
     <string name="altura">%s m</string>
     <string name="edad">%s Años</string>
+    <string name="nom">Nom:</string>
+    <string name="cognom">Cognom:</string>
+    <string name="edat">Edat:</string>
+    <string name="casat">Casat:</string>
+    <string name="mail">Mail</string>
+    <string name="add_person">Add Person</string>
 </resources>

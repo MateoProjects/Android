@@ -11,7 +11,61 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0f1099c-9736-4eff-b910-3cbd765aa30b" name="Default Changelist" comment="" />
+    <list default="true" id="e0f1099c-9736-4eff-b910-3cbd765aa30b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../SecondApp/app/src/main/java/com/example/secondapp/AddPerson.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SecondApp/app/src/main/java/com/example/secondapp/ViewPersona.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SecondApp/app/src/main/res/layout/activity_add_person.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SecondApp/app/src/main/res/layout/activity_view_persona.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thirdAplication/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thirdAplication/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thirdAplication/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thirdAplication/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thirdAplication/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thirdAplication/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thirdAplication/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thirdAplication/app/src/androidTest/java/com/example/thirdaplication/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thirdAplication/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thirdAplication/app/src/main/java/com/example/thirdaplication/FirstFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thirdAplication/app/src/main/java/com/example/thirdaplication/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thirdAplication/app/src/main/java/com/example/thirdaplication/SecondFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thirdAplication/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thirdAplication/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thirdAplication/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thirdAplication/app/src/main/res/layout/fragment_first.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thirdAplication/app/src/main/res/layout/fragment_second.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thirdAplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thirdAplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thirdAplication/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thirdAplication/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thirdAplication/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thirdAplication/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thirdAplication/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thirdAplication/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thirdAplication/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thirdAplication/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thirdAplication/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thirdAplication/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thirdAplication/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thirdAplication/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thirdAplication/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thirdAplication/app/src/test/java/com/example/thirdaplication/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thirdAplication/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thirdAplication/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thirdAplication/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thirdAplication/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thirdAplication/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thirdAplication/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thirdAplication/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecondApp/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../SecondApp/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecondApp/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SecondApp/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecondApp/app/src/main/java/com/example/secondapp/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../SecondApp/app/src/main/java/com/example/secondapp/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecondApp/app/src/main/java/com/example/secondapp/Persona.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../SecondApp/app/src/main/java/com/example/secondapp/Persona.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecondApp/app/src/main/java/com/example/secondapp/PersonaAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../SecondApp/app/src/main/java/com/example/secondapp/PersonaAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecondApp/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SecondApp/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecondApp/app/src/main/res/layout/persona_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SecondApp/app/src/main/res/layout/persona_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecondApp/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SecondApp/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SecondApp/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SecondApp/app/src/main/res/values/styles.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +90,7 @@
         <option value="Kotlin File" />
         <option value="Class" />
         <option value="layoutResourceFile" />
+        <option value="resourceFile" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -52,11 +107,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SecondApp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.1426333792">
+      <recent name="com.example.firstaplication" />
+    </key>
+    <key name="android.template.-67054019">
       <recent name="com.example.firstaplication" />
     </key>
     <key name="android.template.-1571421244">
@@ -148,38 +206,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593447993886" />
+    <state x="403" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1594387204240">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="403" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594387204240" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594216647022">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594216647022" />
     <state x="739" y="172" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1593622629548">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="172" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593622629548" />
-    <state x="540" y="275" key="AndroidCreateResourceFileDialog" timestamp="1593708345539">
+    <state x="770" y="342" width="840" height="489" key="AndroidCreateResourceDirectoryDialog" timestamp="1594217755007">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="540" y="275" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593708345539" />
+    <state x="770" y="342" width="840" height="489" key="AndroidCreateResourceDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594217755007" />
+    <state x="540" y="275" key="AndroidCreateResourceFileDialog" timestamp="1594217785350">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="275" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594217785350" />
     <state x="818" y="333" key="AndroidCreateXmlResourceDialog" timestamp="1593619294969">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="818" y="333" key="AndroidCreateXmlResourceDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593619294969" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1593708500643">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1594127087464">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593708500643" />
-    <state width="938" height="2" key="GridCell.Tab.0.bottom" timestamp="1593784362654">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594127087464" />
+    <state width="1095" height="244" key="GridCell.Tab.0.bottom" timestamp="1594388701884">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="2" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593784362654" />
-    <state width="938" height="2" key="GridCell.Tab.0.center" timestamp="1593784362654">
+    <state width="1095" height="244" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594388701884" />
+    <state width="1095" height="244" key="GridCell.Tab.0.center" timestamp="1594388701884">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="2" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593784362654" />
-    <state width="938" height="2" key="GridCell.Tab.0.left" timestamp="1593784362654">
+    <state width="1095" height="244" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594388701884" />
+    <state width="1095" height="244" key="GridCell.Tab.0.left" timestamp="1594388701884">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="2" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593784362654" />
-    <state width="938" height="2" key="GridCell.Tab.0.right" timestamp="1593784362654">
+    <state width="1095" height="244" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594388701884" />
+    <state width="1095" height="244" key="GridCell.Tab.0.right" timestamp="1594388701884">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="2" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593784362654" />
+    <state width="1095" height="244" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594388701884" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1593547813681">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -188,10 +258,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593466275044" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1593707466934">
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1594386620858">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593707466934" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594386620858" />
     <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593463545251">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
