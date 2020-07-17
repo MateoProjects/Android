@@ -111,7 +111,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun maps() {
-        //supportFragmentManager.beginTransaction().replace(R.id.MainActivity, Maps()).commit()
+        supportFragmentManager.beginTransaction().replace(R.id.MainActivity, MapsFragment()).commit()
 
     }
 

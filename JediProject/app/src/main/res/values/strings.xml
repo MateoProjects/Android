@@ -38,5 +38,11 @@
     <string name="correct_delete_text">El amigo ha sido eliminado correctamente</string>
     <string name="friend">Dades personals</string>
     <string name="text_delete_friend">¿Está seguro que desea eliminar este amigo?</string>
+    <string name="_10km">10KM</string>
+    <string name="_1km">1KM</string>
+    <string name="_100km">100Km</string>
+    <string name="delete_circle">Delete circle</string>
+    <string name="bienvenido_a_la_app_del_curso_de_android_jedi">Bienvenido a la App del Curso de Android Jedi</string>
+    <string name="empezar_a_jugar">Empezar a jugar</string>
 
 </resources>
