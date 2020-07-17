@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.AddFriendFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/friend"
+            android:layout_gravity="center"
+            android:textSize="40dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/blue_tittle"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:text="@string/nom"
+                android:textSize="30dp"/>
+
+            <TextView
+                android:layout_width="225dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="30dp"
+                android:id="@+id/nom_view_friend"
+                android:layout_marginLeft="20dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:text="@string/cognom"
+                android:textSize="30dp"/>
+
+            <TextView
+                android:layout_width="225dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textSize="30dp"
+                android:id="@+id/cognom_view_friend"
+                android:layout_marginLeft="20dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:text="@string/edat"
+                android:textSize="30dp"/>
+
+            <TextView
+                android:layout_width="225dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="30dp"
+                android:id="@+id/edat_view_friend"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:text="@string/videojoc"
+                android:textSize="30dp"/>
+
+            <TextView
+                android:layout_width="225dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="30dp"
+                android:id="@+id/videojoc_view_friend"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Back"
+            android:textSize="30dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="90dp"
+            android:backgroundTint="@color/greenButton"
+            android:id="@+id/back_to_list_friends"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delete_friend"
+            android:textSize="30dp"
+            android:backgroundTint="@color/red_delete"
+            android:layout_marginTop="125dp"
+            android:layout_marginLeft="95dp"
+            android:id="@+id/delete_friend_view"/>
+    </LinearLayout>
+</FrameLayout>

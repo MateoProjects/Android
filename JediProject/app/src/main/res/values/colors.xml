@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5AB4FF</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="red_delete">#FF5733</color>
+    <color name="blue_tittle">#79AEFF</color>
+    <color name="greenButton">#79FF89</color>
+</resources>

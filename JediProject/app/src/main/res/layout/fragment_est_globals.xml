@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="EstadistiquesFragment">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewTest2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        />
+
+    <ImageView
+        android:id="@+id/no_estadistiques_glob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="408dp"
+        android:src="@drawable/cara_triste"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:id="@+id/text_estadistiques_buides_glob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="296dp"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:text="@string/no_est_glob"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

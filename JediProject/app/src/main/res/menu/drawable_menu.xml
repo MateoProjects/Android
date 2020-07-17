@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Jedi Aplication"
+        android:id="@+id/tittle">
+    </item>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/mainFragment"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Main"/>
+        <item
+            android:id="@+id/secondFragment"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Joc de cartes" />
+        <item
+            android:id="@+id/thirdFragment"
+            android:icon="@mipmap/ic_launcher"
+            android:iconTint="@color/colorPrimary"
+            android:title="Estadistiques"/>
+
+        <item
+            android:id="@+id/fourfragment"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Global Estadistics"/>
+
+        <item
+            android:id="@+id/social"
+            android:icon="@mipmap/ic_launcher"
+            android:title="@string/social"/>
+
+        <item
+            android:id="@+id/maps"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Maps"/>
+        <item
+            android:id="@+id/logout"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Logout"/>
+
+    </group>
+</menu>
